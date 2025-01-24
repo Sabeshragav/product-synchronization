@@ -1,0 +1,56 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/_4380d7._.js",
+        "server/edge/chunks/[root of the server]__d7df46._.js",
+        "server/edge/chunks/edge-wrapper_994bd7.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/((?!api|_next/static|_next/image|favicon.ico|images|assets|png|svg|jpg|jpeg|gif|webp).*){(\\\\.json)}?",
+          "originalSource": "/((?!api|_next/static|_next/image|favicon.ico|images|assets|png|svg|jpg|jpeg|gif|webp).*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [
+        {
+          "name": "server/edge/chunks/_4380d7._.js.map",
+          "filePath": "server/edge/chunks/_4380d7._.js.map"
+        },
+        {
+          "name": "server/edge/chunks/_4380d7._.js",
+          "filePath": "server/edge/chunks/_4380d7._.js"
+        },
+        {
+          "name": "server/edge/chunks/[root of the server]__d7df46._.js.map",
+          "filePath": "server/edge/chunks/[root of the server]__d7df46._.js.map"
+        },
+        {
+          "name": "server/edge/chunks/[root of the server]__d7df46._.js",
+          "filePath": "server/edge/chunks/[root of the server]__d7df46._.js"
+        },
+        {
+          "name": "server/edge/chunks/edge-wrapper_994bd7.js.map",
+          "filePath": "server/edge/chunks/edge-wrapper_994bd7.js.map"
+        },
+        {
+          "name": "server/edge/chunks/edge-wrapper_994bd7.js",
+          "filePath": "server/edge/chunks/edge-wrapper_994bd7.js"
+        }
+      ],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "wIm2Ow6IswiKo8i8VmqdsOf4Nt4E3tNlMAjEumBwQ5k=",
+        "__NEXT_PREVIEW_MODE_ID": "b007e32c47b7dc3274c57db8beb04843",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "5c51fc908061935cbd1d3a724b21f98129fcc42135d19f610e07a4eb88acd4e8",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "303bd22ffa38da37e138c9190148181800cd8b5a77116adb3a0c69777eef66db"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}

@@ -1,0 +1,35 @@
+MedusaJs
+
+
+
+
+Medusa is an open-source commerce platform with a built-in framework for customization
+
+Medusa's building blocks 
+    1) Commerce modules : cart, product, order modules,....
+    2) A core package : Responsible for orchestrating the different commerce modules, extending data models, and exposing REST API's
+
+What can be build with Medusa
+    1) Ecommerce
+    2) Marketplace
+    3) Subscription business
+    4) Order management service
+    5) B2B store
+    6) Point of Sales (POS)
+
+
+
+npx create-medusa-app@latest
+
+npx medusa db:generate blog
+
+npx medusa db:migrate
+
+
+##directus##
+docker run \
+-p 8055:8055 \
+-e SECRET=aiwehfuihwamcjfwhwywnyr873y874y8734yt5ywr029qcmur983ru29xu983crn923cr9u239u2389c \
+directus/directus
+
+
